@@ -1,0 +1,51 @@
+# N2
+
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+height = float(input("Enter your height: "))
+
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+
+
+#N3
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+print('addition:', num1 + num2)
+print('subtraction:', num1 - num2)
+print('multiplication:', num1 * num2)
+print('division:', num1 / num2)
+
+#N4
+
+product_name = input("Enter product name: ")
+price = float(input("Enter product price: "))
+quantity = int(input("Enter quantity: "))
+
+total_price = price * quantity
+
+print("Product:", product_name)
+print("Price:", price)
+print("Quantity:", quantity)
+print("Total price:", total_price)
+
+#N5
+
+name = input("Enter student name: ")
+
+math_grade = float(input("Enter math grade: "))
+english_grade = float(input("Enter English grade: "))
+georgian_grade = float(input("Enter Georgian grade: "))
+
+average = (math_grade + english_grade + georgian_grade) / 3
+
+print("Student name:", name)
+print("Math grade:", math_grade)
+print("English grade:", english_grade)
+print("Georgian grade:", georgian_grade)
+print("Average grade:", average)
+

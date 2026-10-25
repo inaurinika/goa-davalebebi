@@ -1,0 +1,7 @@
+
+name = input("Enter your name: ")
+surname = input("Enter your surname: ")
+age = input("Enter your age: ")
+print(f"Hello {name}!")
+print(f"User fullname is {name} {surname}")
+print(f"User age is {age}")

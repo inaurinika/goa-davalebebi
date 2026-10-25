@@ -1,0 +1,61 @@
+
+# N2
+
+for i in range(1, 21):
+    print(i)
+
+i = 1
+
+while i <= 20:
+    print(i)
+    i += 1
+
+
+# N3
+
+for i in range(1, 51):
+    print(i)
+
+i = 1
+
+while i <= 50:
+    print(i)
+    i += 3
+
+
+# N4
+
+total = 0
+
+for i in range(1, 101):
+    total = total + i
+
+print("Sum:", total )
+
+total = 0
+i = 1
+
+while i <= 100:
+    total = total + i
+    i += 1
+
+print("Sum:" ,total)
+
+
+# N5
+
+num = int(input("Enter a number (1-10): "))
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
+
+
+num = int(input("Enter a number: "))
+
+i = 1
+
+while i <= 10:
+    print(num, "x", i, "=", num * i)
+    i += 1
+
+

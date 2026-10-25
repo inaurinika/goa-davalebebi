@@ -1,0 +1,22 @@
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+
+
+print("Addition:", num1 + num2 + num3)
+print("Subtraction:", num1 - num2 - num3)
+print("Multiplication:", num1 * num2 * num3)
+
+if num2 != 0 and num3 != 0:
+    print("Division:", num1 / num2 / num3)
+else:
+    print("Division is not possible because a divisor is zero.")
+
+if num2 != 0 and num3 != 0:
+    print("Floor division:", num1 // num2 // num3)
+
+if num2 != 0 and num3 != 0:
+    print("Remainder:", num1 % num2 % num3)
+
+print("Exponentiation:", num1 ** num2 ** num3)

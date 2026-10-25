@@ -1,0 +1,59 @@
+#2
+
+number = int(input("Enter a number: "))
+
+if number > 0:
+    print("Positive")
+elif number < 0:
+    print("Negative")
+else:
+    print("Zero")
+
+#3
+
+grade = int(input("Enter your grade: "))
+
+if grade < 0 or grade > 100:
+    print("Invalid grade")
+elif grade >= 90:
+    print("A")
+elif grade >= 80:
+    print("B")
+elif grade >= 70:
+    print("C")
+elif grade >= 60:
+    print("D")
+else:
+    print("F")
+
+#4
+
+secret_number = 7
+
+guess = int(input("Guess the number: "))
+
+while guess != secret_number:
+    print("Wrong number! Try again.")
+    guess = int(input("Guess the number: "))
+
+print("You guessed the number!")
+
+#5
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+operator = input("Enter operator (+, -, *, /): ")
+
+if operator == "+":
+    print(num1 + num2)
+elif operator == "-":
+    print(num1 - num2)
+elif operator == "*":
+    print(num1 * num2)
+elif operator == "/":
+    if num2 != 0:
+        print(num1 / num2)
+    else:
+        print("Cannot divide by zero")
+else:
+    print("Invalid operator")

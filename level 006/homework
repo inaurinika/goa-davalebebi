@@ -1,0 +1,24 @@
+# N2
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+print("First number is greater:", num1 > num2)
+print("First number is less:", num1 < num2)
+print("Numbers are equal:", num1 == num2)
+
+#N3
+
+score = int(input("Enter your exam score (0-100): "))
+print(score >= 50)
+
+#N4
+
+price = float(input("Enter product price: "))
+money = float(input("Enter your money: "))
+print("Enough money:", money >= price)
+
+#N5
+
+num = int(input("Enter an integer: "))
+print(num % 2 == 0)

@@ -1,0 +1,43 @@
+# N2 
+name = input("Enter your name: ")
+surname = input("Enter your surname: ")
+age = input("Enter your age: ")
+favorite_color = input("Enter your favorite color: ")
+
+print(f"User full name: {name} {surname}")
+print(f"User age: {age}")
+print(f"Favorite color: {favorite_color}")
+
+#N3
+
+favorite_car = input("Enter your favorite car: ")
+favorite_brand = input("Enter your favorite brand: ")
+favorite_perfume = input("Enter your favorite perfume: ")
+favorite_sport = input("Enter your favorite sport: ")
+
+print(f"My favorite car: {favorite_car}")
+print(f"My favorite brand: {favorite_brand}")
+print(f"My favorite perfume: {favorite_perfume}")
+print(f"My favorite sport: {favorite_sport}")
+
+#N4
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+dream_profession = input("Enter your dream profession: ")
+country = input("Enter the country you want to live in: ")
+main_goal = input("Enter your main goal: ")
+
+print(f"My name is {name}.")
+print(f"I am {age} years old.")
+print(f"My dream profession is {dream_profession}.")
+print(f"I want to live in {country}.")
+print(f"My main goal is {main_goal}.")
+
+#N5
+ input() არის ფუნქცია რომლის საშვალებითაც კომპიუტერი სთხოვს მომხმარებელს
+ მისი ინფორმაციის შეყვანას მაგალითად სახელის გვარის ან საყვარელი ფერის რის შემდეგადაც
+ როდესაც მომხხმარებელი ამ შეკითხვაზე უპასუხებს ეს ყოველივე ინახება ცვლადში
+  
+  snake_case არის ცვლადების სახელების წერის სტილი რომელის დროსაც სიტყვები იწერება პატარა
+  ასოებით და მათ შორის არის გამოყენებული ქვედა ტირე (_)

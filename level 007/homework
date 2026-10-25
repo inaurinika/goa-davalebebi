@@ -1,0 +1,32 @@
+# N2
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print(age > 18)
+
+#N3
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+print(num1 > num2)
+print(num1 < num2)
+print(num1 == num2)
+
+# N4
+
+age = int(input("Enter your age: "))
+password = input("Enter your password: ")
+
+correct_password = "python123"
+
+print(age >= 13 and password == correct_password)
+
+# N5
+
+price = float(input("Enter product price: "))
+age = int(input("Enter your age: "))
+
+print(price > 100 and age >= 18)
+print(price > 100 or age >= 18)
